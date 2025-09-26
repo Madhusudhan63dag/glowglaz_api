@@ -36,7 +36,7 @@ app.use(cors({
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true // Add credentials support for cookies/auth headers if needed
-}));
+}));``
 app.use(bodyParser.json());
 
 // Razorpay Configuration
